@@ -7,4 +7,4 @@
 |赞助|R|
 |--|--|
 |[丨浅笑安然丨](https://smilear.cn)|5|
-|[板栗小辈](www.cqcttx.com)|1|
+|[丨板栗小辈丨](www.cqcttx.com)|1|
