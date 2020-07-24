@@ -37,11 +37,11 @@ class HongStyle_Plugin implements Typecho_Plugin_Interface
     $G = realpath(__DIR__ . "${F}..${F}..${F}..${F}") . "${F}";
     $R = __DIR__ . "${F}static${F}";
     //还原footer.php
-    rename("${G}admin${F}footer.php.old", "${G}admin${F}footer.php");
     unlink("${G}admin${F}footer.php");
+    rename("${G}admin${F}footer.php.old", "${G}admin${F}footer.php");
     //还原header.php
-    rename("${G}admin${F}header.php.old", "${G}admin${F}header.php");
     unlink("${G}admin${F}header.php");
+    rename("${G}admin${F}header.php.old", "${G}admin${F}header.php");
     //卸载user文件夹
     unlink("${G}user${F}logo.png");
     unlink("${G}user${F}user-style.css");
